@@ -1,0 +1,14 @@
+color: define a cor do texto
+background-color: define a cor de fundo do elemento
+font-size: define o tamanho da fonte
+font-family: define a família de fontes a ser usada
+font-weight: define a espessura da fonte (por exemplo, negrito ou normal)
+text-align: define o alinhamento do texto (por exemplo, à esquerda, à direita, centralizado ou justificado)
+padding: define o espaço interno do elemento
+margin: define o espaço externo do elemento
+border: define a borda do elemento
+width: define a largura do elemento
+height: define a altura do elemento
+display: define como o elemento é exibido na página (por exemplo, como um bloco, em linha ou como um elemento de tabela)
+position: define o tipo de posicionamento do elemento na página (por exemplo, estático, absoluto, fixo ou relativo)
+float: define se um elemento deve flutuar à esquerda ou à direita de outros elementos na página.

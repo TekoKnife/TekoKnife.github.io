@@ -1,0 +1,17 @@
+<!DOCTYPE html>: define o tipo de documento HTML
+<html>: define o elemento raiz do documento HTML
+<head>: define informações de cabeçalho do documento HTML, como o título da página e os links para arquivos CSS e JavaScript
+<meta>: define metadados do documento HTML, como a descrição da página e as palavras-chave relacionadas
+<body>: define o conteúdo principal da página HTML
+<h1> - <h6>: define os títulos da página HTML
+<p>: define um parágrafo
+<a>: define um hyperlink
+<img>: define uma imagem
+<ul> e <ol>: definem listas não ordenadas e ordenadas, respectivamente
+<li>: define um item de lista em uma lista não ordenada ou ordenada
+<table>: define uma tabela
+<tr>: define uma linha em uma tabela
+<td>: define uma célula de dados em uma tabela
+<form>: define um formulário de entrada do usuário
+<input>: define um campo de entrada do usuário
+<button>: define um botão clicável
