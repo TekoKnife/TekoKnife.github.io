@@ -1,13 +1,19 @@
 header{
   background-color: black;
+  padding: 10px;
   text-align: center;
   position: fixed;
   width: 100%;
 }
 
+  header p {
+    margin: 0;
+    text-align: center;
+    position: fixed;
+  }
+
 h1{
   text-align: center;
-  color: yellowgreen;
   position: fixed;
 }
 
