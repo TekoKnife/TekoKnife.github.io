@@ -1,12 +1,12 @@
-function mostrarHora() {
-    var dataAtual = new Date();
-    var hora = dataAtual.getHours();
-    var minuto = dataAtual.getMinutes();
-    var segundo = dataAtual.getSeconds();
-    hora = hora < 10 ? "0" + hora : hora;
-    minuto = minuto < 10 ? "0" + minuto : minuto;
-    segundo = segundo < 10 ? "0" + segundo : segundo;
-    var horaCompleta = hora + ":" + minuto + ":" + segundo;
-    document.getElementById("relogio").innerHTML = horaCompleta;
-  }
-  setInterval(mostrarHora, 1000);
+function atualizarRelogio() {
+  var agora = new Date();
+  var hora = agora.getHours();
+  var minutos = agora.getMinutes();
+  var segundos = agora.getSeconds();
+  var horaString = hora.toString().padStart(2, '0');
+  var minutosString = minutos.toString().padStart(2, '0');
+  var segundosString = segundos.toString().padStart(2, '0');
+  var relogio = document.getElementById("relogio");
+  relogio.textContent = horaString + ":" + minutosString + ":" + segundosString;
+}
+setInterval(atualizarRelogio, 1000);
