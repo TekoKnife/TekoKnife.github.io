@@ -1,5 +1,13 @@
+header{
+  background-color: black;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+
 h1{
   text-align: center;
+  color: yellowgreen;
   position: fixed;
 }
 
