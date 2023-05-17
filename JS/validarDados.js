@@ -11,5 +11,5 @@ function validator(nome, sobrenome, cpf, cnpj){
     if(cnpj.length < 14 || cnpj.length > 14){
         return 'CNPJ invalido'
     }
-    return true;
+   return true;
 }
