@@ -13,3 +13,4 @@ function validator(nome, sobrenome, cpf, cnpj){
     }
    return true;
 }
+
